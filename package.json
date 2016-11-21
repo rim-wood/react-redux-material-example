@@ -1,0 +1,55 @@
+{
+  "name": "react-redux-material-example",
+  "version": "1.0.0",
+  "description": "基础项目模板",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:will-min/react-redux-material-example.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "hot",
+    "reloading",
+    "babel",
+    "express",
+    "webpack"
+  ],
+  "author": "will-min",
+  "license": "ISC",
+  "main": "bin/server.js",
+  "scripts": {
+    "build": "better-npm-run build"
+  },
+  "betterScripts": {
+    "build": {
+      "command": "webpack --verbose --colors --display-error-details --config webpack/prod.config.js",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "babel-runtime": "^6.11.6",
+    "react": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-router-redux": "^4.0.6",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "better-npm-run": "0.0.11",
+    "react-hot-loader": "^3.0.0-beta.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.0"
+  }
+}

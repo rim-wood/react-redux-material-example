@@ -1,0 +1,8 @@
+{
+  "presets":["react","es2016","stage-0"],
+  "plugins":[
+    "transform-runtime",
+    "add-module-exports",
+    "react-hot-loader/babel"
+  ]
+}
